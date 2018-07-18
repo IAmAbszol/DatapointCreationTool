@@ -9,7 +9,7 @@ Dependencies (Tested under python2.7)
 - pandas?
 
 Description
-This tool aids in the capture and data collection of the Alfred Stream Bot project where an AI is to be trained in order to recognize in game stocks captured on any platform. The captured images are synthesized into individual images with varying resolutions and sizes all the while keeping the stock position intact.
+This tool aides in the capture and data collection of the Alfred Stream Bot project where an AI is to be trained in order to recognize in game stocks captured on any platform. The captured images are synthesized into individual images with varying resolutions and sizes all the while keeping the stock position intact.
 
 How to run
 Currently the development build of the data collection uses a dolphin emulator and maximizes the whole screen. 
