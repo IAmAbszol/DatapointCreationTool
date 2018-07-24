@@ -9,7 +9,7 @@ Dependencies (Tested under python2.7)
 - pandas?
 
 Description
-This tool aids in the capture and data collection of the Alfred Stream Bot project where an AI is to be trained in order to recognize in game stocks captured on any platform. The captured images are synthesized into individual images with varying resolutions and sizes all the while keeping the stock position intact.
+This tool aides in the capture and data collection of the Alfred Stream Bot project where an AI is to be trained in order to recognize in game stocks captured on any platform. The captured images are synthesized into individual images with varying resolutions and sizes all the while keeping the stock position intact.
 
 How to run
 Currently the development build of the data collection uses a dolphin emulator and maximizes the whole screen. 
@@ -25,5 +25,8 @@ Currently the development build of the data collection uses a dolphin emulator a
 
 Few notes
 The labelImage allows for many boxes to be added. The collect_data.py script will take this into account, meaning you should have n bounding boxes to n falcon boxes, thus you can have as many boxes you need. Therefore, for melee, you can have 20 stocks being recorded per data frame.
+
+Validate.py is a recent addition whose arguments may be reduced to just -f.
+This handy script checks the post text file created by the image capture and checks the file sequentially for out of bounds errors.
 
 Later I'll be adding random time sleeps to vary out the data collection and pykeyboard will be used as a pause in between switching maps.
